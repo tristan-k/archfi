@@ -792,7 +792,7 @@ selectmirrorsbycountry() {
 installbase(){
 	pkgs="base"
 	options=()
-	options+=("linux" "")
+	options+=("linux-bcachefs-git" "")
 	options+=("linux-lts" "")
 	options+=("linux-zen" "")
 	options+=("linux-hardened" "")
